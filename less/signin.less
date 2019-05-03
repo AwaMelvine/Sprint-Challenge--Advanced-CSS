@@ -1,7 +1,5 @@
 //Contact
 .container.login {
-  min-height: 100%;
-
   h2 {
     text-align: center;
     margin: 20px auto;
@@ -13,6 +11,10 @@
     font-size: 1.6rem;
     border: 1px solid lighten(@waterloo, 30%);
     padding: 3rem;
+
+    @media @phone {
+      width: 90%;
+    }
 
     &::after {
       content: "";

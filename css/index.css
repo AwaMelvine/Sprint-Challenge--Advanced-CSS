@@ -334,9 +334,6 @@ footer {
     display: block;
   }
 }
-.container.login {
-  min-height: 100%;
-}
 .container.login h2 {
   text-align: center;
   margin: 20px auto;
@@ -347,6 +344,11 @@ footer {
   font-size: 1.6rem;
   border: 1px solid #d2d3d6;
   padding: 3rem;
+}
+@media (max-width: 500px) {
+  .container.login form {
+    width: 90%;
+  }
 }
 .container.login form::after {
   content: "";
