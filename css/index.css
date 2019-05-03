@@ -205,6 +205,13 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .intro .header-image-wrapper {
+  width: 100%;
+}
+.home .intro .header-image-wrapper img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
 .home .intro h2 {
   padding: 15px;
 }
