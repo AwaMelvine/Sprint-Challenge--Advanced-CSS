@@ -135,7 +135,7 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #5E6164;
+  color: #5e6164;
 }
 h1,
 h2,
@@ -143,7 +143,7 @@ h3,
 h4,
 h5 {
   font-family: 'Russo One', sans-serif;
-  color: #23293B;
+  color: #23293b;
 }
 h2 {
   font-size: 3.2rem;
@@ -165,7 +165,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #F6F6F6;
+  background: #f6f6f6;
 }
 .navbar .logo {
   padding-top: 1rem;
@@ -174,7 +174,7 @@ p {
 .navbar .logo a {
   display: block;
   text-decoration: none;
-  color: #5E6164;
+  color: #5e6164;
 }
 .navbar .logo a .logo-text {
   font-size: 4rem;
@@ -182,6 +182,11 @@ p {
 .navbar .nav-menu {
   display: flex;
   width: 35%;
+}
+@media (max-width: 500px) {
+  .navbar .nav-menu {
+    width: 90%;
+  }
 }
 .navbar .nav-menu li {
   flex: 1;
@@ -193,7 +198,7 @@ p {
   padding-bottom: 1.5rem;
   text-align: center;
   text-decoration: none;
-  color: #5E6164;
+  color: #5e6164;
 }
 footer {
   color: #22283B;
@@ -253,6 +258,25 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 0.55em;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  background: #22283a;
+  color: #f6f6f6;
+  border: 1px solid transparent;
+  cursor: pointer;
+  width: 10rem;
+  transition: all 0.15s ease-in-out;
+}
+.home .walk .walk-text .btn:hover {
+  color: #22283a;
+  background: #f6f6f6;
+  border: 1px solid #22283a;
+  transition: all 0.15s ease-in-out;
 }
 .home .walk .walk-img {
   width: 46%;
