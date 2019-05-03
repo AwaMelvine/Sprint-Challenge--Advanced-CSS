@@ -134,7 +134,7 @@ html {
 }
 html,
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #5e6164;
 }
 h1,
@@ -142,7 +142,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Russo One', sans-serif;
+  font-family: "Russo One", sans-serif;
   color: #23293b;
 }
 h2 {
@@ -334,13 +334,16 @@ footer {
     display: block;
   }
 }
+.container.login {
+  min-height: calc(100vh - 90px);
+}
 .container.login h2 {
   text-align: center;
   margin: 20px auto;
 }
 .container.login form {
   width: 60%;
-  margin: 3rem auto;
+  margin: 8rem auto;
   font-size: 1.6rem;
   border: 1px solid #d2d3d6;
   padding: 3rem;
