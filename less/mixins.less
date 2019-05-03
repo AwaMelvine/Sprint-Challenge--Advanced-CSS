@@ -1,1 +1,20 @@
 // Mixins Here
+
+// Remove default text decoration for anchor tags
+.reset_text_decoration(@font-color) {
+  text-decoration: none;
+  color: @font-color;
+}
+
+// Styles buttons
+.design_buttons(@font-size, @borderRadius, @paddingVertical) {
+  font-size: @font-size;
+  text-align: center;
+  padding: @paddingVertical;
+  border-radius: @borderRadius;
+  font-weight: bold;
+  background: @btn-bg-color;
+  color: @wild-sand;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
