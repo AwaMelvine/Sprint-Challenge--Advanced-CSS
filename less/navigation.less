@@ -12,8 +12,7 @@
     padding-bottom: 1rem;
     a {
       display: block;
-      text-decoration: none;
-      color: @main-font-color;
+      .reset_text_decoration(@main-font-color);
 
       .logo-text {
         font-size: 4rem;
@@ -34,8 +33,7 @@
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
         text-align: center;
-        text-decoration: none;
-        color: @main-font-color;
+        .reset_text_decoration(@main-font-color);
       }
     }
   }
